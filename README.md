@@ -1,73 +1,68 @@
-# Unit 02 CSS and Bootstrap Homework: Responsive Portfolio
+# [Start Bootstrap - Creative](https://startbootstrap.com/template-overviews/creative/)
 
-Responsive design ensures that web applications render well on a variety of devices and window or screen sizes. As a developer, you will likely be asked to create a mobile-first application or add responsive design to an existing application. 
+[Creative](http://startbootstrap.com/template-overviews/creative/) is a one page creative theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
 
+## Preview
 
-## Directions
+[![Creative Preview](https://startbootstrap.com/assets/img/screenshots/themes/creative.png)](https://blackrockdigital.github.io/startbootstrap-creative/)
 
-First, you will use the Bootstrap CSS Framework to recreate your portfolio. How do you deliver this? Here are some guidelines:
+**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-creative/)**
 
-* Create the following pages: `index.html`, `portfolio.html` and `contact.html`.
+## Status
 
-* Using Bootstrap, recreate your portfolio site with the following items:
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-creative/master/LICENSE)
+[![npm version](https://img.shields.io/npm/v/startbootstrap-creative.svg)](https://www.npmjs.com/package/startbootstrap-creative)
+[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-creative.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-creative)
+[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-creative/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-creative)
+[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-creative/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-creative?type=dev)
 
-   * A navbar
+## Download and Installation
 
-   * A responsive layout
+To begin using this template, choose one of the following options to get started:
+* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/creative/)
+* Install via npm: `npm i startbootstrap-creative`
+* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-creative.git`
+* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-creative)
 
-   * Responsive images
+## Usage
 
-* The Bootstrap portfolio should minimize the use of media queries.
+### Basic Usage
 
+After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
 
-### Hints
+### Advanced Usage
 
-* Use Bootstrap's grid system (containers, rows, and columns).
+After installation, run `npm install` and then run `npm start` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
 
-* On an `xs` screen, content should take up the entire screen. On `sm` and larger screens, you should have some margins on the left and right sides of the screen. Check out various sites on your mobile device vs. your computer to see examples of these differences.
+#### Gulp Tasks
 
+- `gulp` the default task that builds everything
+- `gulp watch` browserSync opens the project in your default browser and live reloads when changes are made
+- `gulp css` compiles SCSS files into CSS and minifies the compiled CSS
+- `gulp js` minifies the themes JS file
+- `gulp vendor` copies dependencies from node_modules to the vendor directory
 
-### Minimum Requirements
+You must have npm installed globally in order to use this build environment.
 
-* Functional, deployed application
+## Bugs and Issues
 
-* GitHub repository with README describing the project
+Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-creative/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/creative/).
 
+## About
 
-### Bonus
+Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
 
-* Using Bootstrap, make a sticky footer and use sub-rows and sub-columns on your portfolio site (**Hint:** Check out the Bootstrap documentation).
+* https://startbootstrap.com
+* https://twitter.com/SBootstrap
 
+Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
 
-## Commit Early and Often
+* http://davidmiller.io
+* https://twitter.com/davidmillerskt
+* https://github.com/davidtmiller
 
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
+Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
 
-* Your commit history is a signal to employers that you are actively working on projects and learning new skills.
+## Copyright and License
 
-* Your commit history allows you to revert your codebase in the event that you need to return to a previous state.
-
-Follow these guidelines for committing:
-
-* Make single-purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits.
-
-* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history.
-
-* Don't commit half-done work, for the sake of your collaborators (and your future self!).
-
-* Test your application before you commit to ensure functionality at every step in the development process.
-
-We would like you to have well over 200 commits by graduation, so commit early and often!
-
-
-## Submission on BCS
-
-You are required to submit the following:
-
-* The URLs of the deployed applications
-
-* The URLs of the GitHub repositories
-
-- - -
-
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+Copyright 2013-2019 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-creative/blob/gh-pages/LICENSE) license.
